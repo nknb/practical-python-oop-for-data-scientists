@@ -2,4 +2,4 @@
 Exemples pratiques de programmation orientée objet en Python appliquée à la data science.
 
 
-- La partie 1 :  comprendre de la programmation Objet en python
+- La partie 1 :  Comprendre la programmation Objet en python
