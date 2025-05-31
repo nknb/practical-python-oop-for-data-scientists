@@ -1,8 +1,31 @@
-Énoncé 1 (CLASSE NUMBER)
+# 🧮 Classe `Numbers` – Exercice Python
 
-Créez une classe appelée Numbers, qui a un seul attribut de classe appelé MULTIPLIER = 10, et un constructeur qui prend les paramètres x et y (ceux-ci doivent tous être des nombres).
+## Objectif
 
-Écrivez une méthode appelée add qui renvoie la somme des attributs x et y.
-Écrivez une méthode appelée multiply, qui prend un seul paramètre numérique a et renvoie le produit de a et de MULTIPLIER.
-Écrivez une méthode statique appelée substract, qui prend deux paramètres numériques : b et c, et renvoie b - c.
-Écrivez une méthode appelée values qui renvoie un tuple contenant les valeurs de x et y. Transformez cette méthode en propriété et écrivez un setter pour manipuler les valeurs de x et y.
+Cet exercice a pour but d’implémenter une classe Python nommée `Numbers` qui effectue des opérations numériques simples en utilisant les principes de la programmation orientée objet.
+
+## Spécifications
+
+Créez une classe nommée `Numbers` avec les caractéristiques suivantes :
+
+### Attribut de classe
+- `MULTIPLIER = 10`  
+  Un attribut de classe utilisé pour les opérations de multiplication.
+
+### Constructeur
+- `__init__(self, x, y)`  
+  Initialise une instance avec deux attributs numériques `x` et `y`. Ces deux valeurs doivent obligatoirement être des nombres (`int` ou `float`).
+
+### Méthodes d’instance
+- `add(self)`  
+  Retourne la **somme** des attributs `x` et `y`.
+
+- `multiply(self, a)`  
+  Prend en paramètre un nombre `a` et retourne le **produit** de `a` par `MULTIPLIER`.
+
+### Méthode statique
+- `substract(b, c)`  
+  Méthode statique qui prend deux paramètres numériques `b` et `c`, et retourne le résultat de `b - c`.
+
+### Propriété : `values`
+- Un **setter** qui permet de mettre à jour `x` et `y` à l’aide d’un tuple ou d’une liste contenant deux valeurs numériques.
