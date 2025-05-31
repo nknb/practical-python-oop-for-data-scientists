@@ -20,7 +20,7 @@ Bienvenue dans ce dépôt dédié à des **exemples pratiques** de **programmati
 
 ## 🚀 À venir
 
-- 🔸 Partie 2 : Structurer un projet data avec des classes
+- 🔸 Partie 2 :projet data avec des classes
 
 ---
 
